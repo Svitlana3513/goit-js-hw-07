@@ -11,6 +11,6 @@ clickMe.addEventListener("click", handleClick)
 
 function handleClick() {
   const newColor = getRandomHexColor();
-  body.style.backgroundColor = newColor;
+  document.body.style.backgroundColor = newColor;
   nameColor.textContent = newColor;
 };
