@@ -4,7 +4,7 @@ form.addEventListener("submit", handleSubmit);
 function handleSubmit(event) {
     event.preventDefault;
     const elements = event.currentTarget.elements;
-
+   
     const info = {
         email: elements.email.value.trim(),
         password: elements.password.value.trim(),
@@ -15,3 +15,4 @@ function handleSubmit(event) {
     console.log(info);
     event.currentTarget.reset;
 }
+

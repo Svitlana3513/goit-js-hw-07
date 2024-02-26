@@ -5,7 +5,7 @@ inputName.addEventListener("input", handleInput);
 function handleInput(event) {
     outputName.textContent = event.currentTarget.value.trim();
     if(event.currentTarget.value.trim() === ""){
-        outputName.textContent = "Hello, Anonymous!";
+        outputName.textContent = "Anonymous";
     }
 }
 
