@@ -16,7 +16,7 @@ function createBoxes() {
   let amountBoxes = inputAmount.value;
   if (amountBoxes > 0 && amountBoxes <= 100) {
     let boxsize = 30;
-    for (let i = 0; i <= amountBoxes; i += 1){
+    for (let i = 0; i < amountBoxes; i += 1){
       
       const newDiv = `<div style = "width: ${boxsize}px;
                                     height: ${boxsize}px;
