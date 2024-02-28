@@ -26,6 +26,8 @@ p{
   margin-bottom: 0;
 }
 
+/*========TASK 1=======*/
+
 #categories{
   display:flex;
   flex-direction: column;
@@ -48,6 +50,13 @@ p{
   font-family: Montserrat;
 }
 
+.item >ul>li{
+  width: 360px;
+  height: 40px;
+  border: #2E2F42;
+}
+
+/*========TASK 2=======*/
 .gallery{
   display: flex;
   flex-wrap: wrap;
@@ -59,4 +68,95 @@ p{
   display: block;
   width: calc((100% - 48px) / 3);
 }
+
+/*========TASK 4=======*/
+.login-form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.login-form>button {
+  width: 86px;
+  height: 40px;
+  border-radius: 8px;
+  background-color: #4E75FF;
+  border: none;
+  padding: 8px 16px;
+  color: #fff;
+  margin-top: 16px;
+}
+
+form input {
+  width: 360px;
+  height: 40px;
+}
+
+form label {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 8px;
+}
+
+/*========TASK 5=======*/
+.change-color{
+  width: 148px;
+  height: 40px;
+  border-radius: 8px;
+  background-color: #4E75FF;
+  border: none;
+  padding: 8px 16px;
+  color: #fff;
+  margin-top: 16px;
+}
+
+/*========TASK 6=======*/
+#controls > input{
+  width: 150px;
+  height: 40px;
+  border-radius: 8px;
+  margin-right: 16px;
+}
+
+#controls>input {
+  width: 150px;
+  height: 40px;
+  border-radius: 8px;
+}
+
+#controls>button {
+  width: 120px;
+  height: 40px;
+  border-radius: 8px;
+  border: none;
+  padding: 8px 30px;
+  color: #fff;
+  background-color: #4E75FF;
+  margin-right: 16px;
+}
+
+#controls{
+  display: flex;
+  align-items: center;
+  width: 486px;
+  height: 104px;
+  background-color: #F6F6FE;
+}
+
+#boxes{
+  display: flex;
+  flex-direction: row;
+  width: 486px;
+  height: 160px;
+  background-color: #F6F6FE;
+  margin-top: 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+
+
+
+
+
 

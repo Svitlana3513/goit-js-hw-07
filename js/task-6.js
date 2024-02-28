@@ -15,9 +15,9 @@ function createBoxes() {
   destroyBoxes();
   let amountBoxes = inputAmount.value;
   if (amountBoxes > 0 && amountBoxes <= 100) {
-    
+    let boxsize = 30;
     for (let i = 0; i <= amountBoxes; i += 1){
-      let boxsize = 30;
+      
       const newDiv = `<div style = "width: ${boxsize}px;
                                     height: ${boxsize}px;
                                     background: ${getRandomHexColor()}"></div>`;
